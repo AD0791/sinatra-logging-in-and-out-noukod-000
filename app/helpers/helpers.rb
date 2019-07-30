@@ -6,6 +6,6 @@ class Helpers
   end
 
   self.def is_logged_in?(session)
-    
+    user_id = session[:id]
   end
 end
