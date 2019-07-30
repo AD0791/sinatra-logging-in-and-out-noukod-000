@@ -14,6 +14,7 @@ class ApplicationController < Sinatra::Base
     #binding.pry
     @user = User.find_by_username(params["username"])
     #binding.pry
+    
     if @user
       session[:id] = @user.id
       #binding.pry
