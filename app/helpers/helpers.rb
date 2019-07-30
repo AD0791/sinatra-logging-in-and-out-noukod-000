@@ -5,7 +5,7 @@ class Helpers
     current_user
   end
 
-  self.def is_logged_in?(Hash)
+  self.def is_logged_in?(session)
     
   end
 end
