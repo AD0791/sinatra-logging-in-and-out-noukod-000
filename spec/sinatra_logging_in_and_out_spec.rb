@@ -95,7 +95,7 @@ describe 'ApplicationController' do
       }
       post '/login', params
       get '/logout'
-      expect(session[:user_id]).to be(nil)
+      expect(session[:id]).to be(nil)
     end
 
     it 'redirects to \'/\'' do
